@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+li, .logo > h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    list-style: none;
+    margin-block: 8px;
+}
+
+
+li{
+    display: flex;
+    align-items: center;
+    
+}
+li,button:hover{
+    cursor: pointer;
+}
+p{
+    color: rgb(167, 153, 153);
+    font-size: small;
+}
+hr{
+    margin-block: 10px;
+}
+img{
+    padding: 10px;
+}
+input{
+    border-radius: 15px;
+    padding: 8px;
+    border-style: none;
+    outline-style: none;
+    width: 50vw;
+}
+button{
+    border-style: none;
+    background-color: rgb(83, 83, 83);
+    border-radius: 30px;
+    padding: 10px;
+    width: 5rem;
+    font-weight: bold;
+    margin-inline: 20px;
+    color: white;
+}
+body{
+    background-color: rgb(207, 199, 199);
+}
+main{
+    display: grid;
+    grid-template: min-content min-content/1fr 4fr;
+    text-align: left;
+   
+}
+nav{
+    display: block;
+    align-content:  center;
+    justify-content: center;
+}
+/*-------- O header ---------*/
+header{
+    grid-row: 1/2;
+    grid-column: 2/3;
+
+    background-color: rgb(155, 155, 155);
+    -webkit-box-shadow: 0px 2px 7px 2px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 2px 7px 2px rgba(0,0,0,0.16);
+    box-shadow: 0px 2px 7px 2px rgba(0,0,0,0.16);
+    display: grid;
+
+    position: sticky;
+    top: 0;
+    right: 0;
+    color: white;
+    
+}
+.imagem2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(119, 119, 119);
+    margin-block: 10px;
+    border-radius: 50% 50%;
+}
+
+header .top, .bottom{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-inline: 50px;   
+}
+header .right{
+    display: flex;
+    align-items: center;
+    
+}
+header .right #prof-name{
+    margin: 10px;
+}
+header .profile{
+    display: flex;
+    align-items: center;
+}
+    
+header .inside-cima{
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .imagem{
+    border-radius: 50% 50%;
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    grid-row: 1/3;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 3fr 5fr; 
+    position: sticky;
+    left:0;
+    top: 0;
+    
+    
+
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-----O MEIOO------- */
+
+.wrapper{
+    
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.title{
+    margin-block: 9px;
+}
+article{
+    grid-column: 1/2;
+    padding: 10px;
+    
+    
+}
+
+article .content-wrapper{
+    display: grid;
+    grid-template-columns:  repeat(2, minmax(200px,1fr));
+    grid-template-rows: repeat(auto-fill minmax(200px, 1fr));
+    gap:10px;
+
+}
+.content{
+    background-color: white;
+    border-radius: 4px;
+    padding: 25px;
+    overflow: hidden;
+    -webkit-box-shadow: 3px 2px 7px 2px rgba(0,0,0,0.10);
+    -moz-box-shadow: 3px 2px 7px 2px rgba(0,0,0,0.10);
+    box-shadow: 3px 2px 7px 2px rgba(0,0,0,0.10);
+}
+aside{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: repeat(auto-fill minmax(500px, 1fr));
+    grid-template-columns: 200px;
+    padding: 10px;
+    gap:8px;
+    
+}
+aside .box{
+    font-size: smaller;
+    background-color: white;
+    border-radius: 4px; 
+    padding: 25px;
+    -webkit-box-shadow: 3px 2px 7px 2px rgba(0,0,0,0.10);
+    -moz-box-shadow: 3px 2px 7px 2px rgba(0,0,0,0.10);
+    box-shadow: 3px 2px 7px 2px rgba(0,0,0,0.10);
+
+}
+
