@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
 *{
     margin:0;
     padding: 0;
-    
+    font-family:  'Roboto Slab', serif;
 }
 li, .logo > h1{
     color: rgb(0, 0, 0);
@@ -53,6 +54,15 @@ button:hover{
     font-size: 1rem;
     padding: 12px;
     transition: 0.1s;
+}
+.content:hover{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    transition: 0.3s;
+}
+.menu li:hover{
+    font-size: larger;
+    transition: 0.2s;   
 }
 body{
     background-color: rgb(207, 199, 199);
