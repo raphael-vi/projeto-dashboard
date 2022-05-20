@@ -46,6 +46,14 @@ button{
     margin-inline: 20px;
     color: white;
 }
+button:active{
+    background-color:rgb(32, 32, 32) ;
+}
+button:hover{
+    font-size: 1rem;
+    padding: 12px;
+    transition: 0.1s;
+}
 body{
     background-color: rgb(207, 199, 199);
 }
